@@ -1,0 +1,18 @@
+aimbot.ad/
+│
+├── .env                      # 환경 변수 및 보안 관련 설정
+├── package.json              # 프로젝트 설정 및 의존성
+├── index.js                  # 메인 진입점
+├── logger.js                 # 로깅 시스템
+├── commands.js               # 슬래시 커맨드 관리
+│
+├── modules/                  # 모듈 디렉토리
+│   └── welcome.js            # 입장/퇴장 웰컴 모듈
+│
+├── web/                      # 웹페이지 관련 파일들
+│   ├── server.js             # 웹 서버
+│   ├── public/               # 정적 파일 (CSS, 이미지 등)
+│   └── views/                # 웹 페이지 템플릿
+│
+└── config/                   # 설정 파일
+    └── bot-config.js         # 봇 설정 관리

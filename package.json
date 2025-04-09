@@ -1,0 +1,28 @@
+{
+    "name": "aimbot.ad",
+    "version": "1.0.0",
+    "description": "모듈형 디스코드 봇 및 웹 인터페이스",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "discord.js": "^14.14.1",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "ejs": "^3.1.9",
+      "chalk": "^4.1.2",
+      "moment": "^2.29.4",
+      "moment-timezone": "^0.5.43",
+      "node-emoji": "^2.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "engines": {
+      "node": ">=16.9.0"
+    },
+    "author": "",
+    "license": "MIT"
+  }
