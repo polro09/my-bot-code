@@ -1,6 +1,8 @@
 const { REST, Routes } = require('discord.js');
 const logger = require('./logger');
 const dotenv = require('dotenv');
+const fs = require('fs');
+const path = require('path');
 
 dotenv.config();
 
@@ -48,11 +50,54 @@ class CommandManager {
   }
 
   /**
+   * 모든 모듈에서 슬래시 커맨드를 로드합니다.
+   */
+  loadModuleCommands() {
+    try {
+      const modulesPath = path.join(__dirname, 'modules');
+      if (!fs.existsSync(modulesPath)) {
+        logger.warn('CommandManager', '모듈 디렉토리가 존재하지 않습니다.');
+        return this;
+      }
+
+      const moduleFiles = fs.readdirSync(modulesPath).filter(file => file.endsWith('.js'));
+      
+      for (const file of moduleFiles) {
+        try {
+          const modulePath = path.join(modulesPath, file);
+          const moduleData = require(modulePath);
+          
+          // 모듈에 슬래시 커맨드가 있는지 확인
+          if (moduleData.slashCommands && Array.isArray(moduleData.slashCommands)) {
+            this.registerModuleCommands(moduleData.name || file, moduleData.slashCommands);
+          }
+        } catch (error) {
+          logger.error('CommandManager', `'${file}' 모듈의 명령어 로드 중 오류 발생: ${error.message}`);
+        }
+      }
+      
+      logger.success('CommandManager', '모든 모듈의 슬래시 커맨드가 로드되었습니다.');
+      return this;
+    } catch (error) {
+      logger.error('CommandManager', `모듈 명령어 로드 중 오류 발생: ${error.message}`);
+      return this;
+    }
+  }
+
+  /**
    * Discord API에 슬래시 커맨드를 배포합니다.
    */
   async deployCommands() {
     try {
-      logger.system('CommandManager', '슬래시 커맨드를 Discord API에 배포 중...');
+      // 모듈 명령어 로드
+      this.loadModuleCommands();
+      
+      if (this.commands.length === 0) {
+        logger.warn('CommandManager', '배포할 슬래시 커맨드가 없습니다.');
+        return;
+      }
+      
+      logger.system('CommandManager', `슬래시 커맨드를 Discord API에 배포 중... (${this.commands.length}개)`);
       
       // 글로벌 커맨드 배포
       await this.rest.put(
@@ -63,6 +108,9 @@ class CommandManager {
       logger.success('CommandManager', `${this.commands.length}개 슬래시 커맨드가 성공적으로 배포되었습니다.`);
     } catch (error) {
       logger.error('CommandManager', `슬래시 커맨드 배포 실패: ${error.message}`);
+      if (error.stack) {
+        logger.error('CommandManager', `스택 트레이스: ${error.stack}`);
+      }
     }
   }
 
@@ -81,6 +129,49 @@ class CommandManager {
    */
   findCommand(name) {
     return this.commands.find(cmd => cmd.name === name) || null;
+  }
+
+  /**
+   * 특정 모듈의 명령어 처리를 수행합니다.
+   * @param {Interaction} interaction 명령어 인터랙션
+   * @param {Client} client 디스코드 클라이언트
+   */
+  async handleCommand(interaction, client) {
+    if (!interaction.isCommand()) return;
+    
+    const { commandName } = interaction;
+    logger.command('CommandManager', `'${interaction.user.tag}'님이 '${commandName}' 명령어를 사용했습니다.`);
+    
+    // 모듈 찾기
+    for (const [name, module] of client.modules) {
+      if (module.commands && module.commands.includes(commandName) && typeof module.executeSlashCommand === 'function') {
+        try {
+          await module.executeSlashCommand(interaction, client);
+          return; // 명령어 처리 완료
+        } catch (error) {
+          logger.error('CommandManager', `'${name}' 모듈의 명령어 '${commandName}' 처리 중 오류 발생: ${error.message}`);
+          
+          // 사용자에게 오류 메시지
+          if (!interaction.replied && !interaction.deferred) {
+            await interaction.reply({
+              content: `명령어 처리 중 오류가 발생했습니다: ${error.message}`,
+              ephemeral: true
+            }).catch(() => {});
+          }
+          return;
+        }
+      }
+    }
+    
+    // 처리되지 않은 명령어
+    logger.warn('CommandManager', `'${commandName}' 명령어를 처리할 모듈을 찾을 수 없습니다.`);
+    
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.reply({
+        content: '이 명령어를 처리할 모듈을 찾을 수 없습니다.',
+        ephemeral: true
+      }).catch(() => {});
+    }
   }
 }
 

@@ -1,0 +1,300 @@
+[2025-04-13 15:00:34] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:00:34] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:00:34] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:00:34] [WARNING] [Loader] 'help.js' 모듈이 유효한 형식이 아닙니다.
+[2025-04-13 15:00:34] [WARNING] [Loader] 'registration.js' 모듈이 유효한 형식이 아닙니다.
+[2025-04-13 15:00:34] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:00:34] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:00:34] [MODULE] [CommandManager] welcome 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:00:34] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:00:34] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:00:34] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:00:34] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:00:34] [SUCCESS] [Loader] 1개 모듈이 성공적으로 로드되었습니다. (2개 모듈 로드 실패)
+[2025-04-13 15:00:35] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:00:35] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:00:35] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (2개)
+[2025-04-13 15:11:12] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:11:12] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:11:12] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:11:12] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:11:12] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:11:12] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:11:12] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:11:12] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:11:12] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:11:12] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:11:12] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:11:12] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:11:12] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:11:12] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:11:12] [ERROR] [Loader] 'welcome.js' 모듈 로딩 중 오류 발생: Unexpected token '{'
+[2025-04-13 15:11:12] [ERROR] [Loader] 스택 트레이스: C:\Users\polro\Desktop\develop.bot\aimbot.js\modules\welcome.js:68
+  registerCommands() {
+                     ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at loadModules (C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js:74:32)
+[2025-04-13 15:11:12] [SUCCESS] [Loader] 2개 모듈이 성공적으로 로드되었습니다. (1개 모듈 로드 실패)
+[2025-04-13 15:11:13] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:11:13] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:11:13] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:11:13] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:11:13] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:11:13] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:11:13] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:11:13] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:11:13] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:11:13] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:11:13] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:11:13] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:11:13] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:11:13] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:11:13] [ERROR] [Loader] 'welcome.js' 모듈 로딩 중 오류 발생: Unexpected token '{'
+[2025-04-13 15:11:13] [ERROR] [Loader] 스택 트레이스: C:\Users\polro\Desktop\develop.bot\aimbot.js\modules\welcome.js:68
+  registerCommands() {
+                     ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at loadModules (C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js:74:32)
+[2025-04-13 15:11:13] [SUCCESS] [Loader] 2개 모듈이 성공적으로 로드되었습니다. (1개 모듈 로드 실패)
+[2025-04-13 15:11:14] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:11:14] [ERROR] [CommandManager] 'welcome.js' 모듈의 명령어 로드 중 오류 발생: Unexpected token '{'
+[2025-04-13 15:11:14] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:11:14] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (3개)
+[2025-04-13 15:11:14] [SUCCESS] [CommandManager] 3개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:11:14] [ERROR] [WebServer] 웹 서버 초기화 중 오류 발생: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+[2025-04-13 15:11:14] [ERROR] [WebServer] 스택 트레이스: Error: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js:7:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+[2025-04-13 15:12:37] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:12:37] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:12:37] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:12:37] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:12:37] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:12:37] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:12:37] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '환영메시지설정' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:12:37] [MODULE] [CommandManager] welcome 모듈에서 3개 명령어를 등록했습니다.
+[2025-04-13 15:12:37] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:12:37] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:12:37] [SUCCESS] [Loader] 3개 모듈이 성공적으로 로드되었습니다. 
+[2025-04-13 15:12:38] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:12:38] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:12:38] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (6개)
+[2025-04-13 15:12:39] [SUCCESS] [CommandManager] 6개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:12:39] [ERROR] [WebServer] 웹 서버 초기화 중 오류 발생: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+[2025-04-13 15:12:39] [ERROR] [WebServer] 스택 트레이스: Error: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js:7:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+[2025-04-13 15:16:50] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:16:50] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:16:50] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:16:50] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:16:50] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:16:50] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:16:50] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '환영메시지설정' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:16:50] [MODULE] [CommandManager] welcome 모듈에서 3개 명령어를 등록했습니다.
+[2025-04-13 15:16:50] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:16:50] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:16:50] [SUCCESS] [Loader] 3개 모듈이 성공적으로 로드되었습니다. 
+[2025-04-13 15:16:52] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:16:52] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:16:52] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (6개)
+[2025-04-13 15:16:52] [SUCCESS] [CommandManager] 6개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:16:52] [ERROR] [WebServer] 웹 서버 초기화 중 오류 발생: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+[2025-04-13 15:16:52] [ERROR] [WebServer] 스택 트레이스: Error: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js:7:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+[2025-04-13 15:17:31] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:17:31] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:17:31] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:17:31] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:17:31] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:17:31] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:17:31] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '환영메시지설정' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:17:31] [MODULE] [CommandManager] welcome 모듈에서 3개 명령어를 등록했습니다.
+[2025-04-13 15:17:31] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:17:31] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:17:31] [SUCCESS] [Loader] 3개 모듈이 성공적으로 로드되었습니다. 
+[2025-04-13 15:17:32] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:17:32] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:17:32] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (6개)
+[2025-04-13 15:17:32] [SUCCESS] [CommandManager] 6개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:17:32] [ERROR] [WebServer] 웹 서버 초기화 중 오류 발생: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+[2025-04-13 15:17:32] [ERROR] [WebServer] 스택 트레이스: Error: Cannot find module 'helmet'
+Require stack:
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js
+- C:\Users\polro\Desktop\develop.bot\aimbot.js\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\polro\Desktop\develop.bot\aimbot.js\web\server.js:7:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+[2025-04-13 15:17:53] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:17:53] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:17:53] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:17:53] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:17:53] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:17:53] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:17:53] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '환영메시지설정' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:17:53] [MODULE] [CommandManager] welcome 모듈에서 3개 명령어를 등록했습니다.
+[2025-04-13 15:17:53] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:17:53] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:17:53] [SUCCESS] [Loader] 3개 모듈이 성공적으로 로드되었습니다. 
+[2025-04-13 15:17:54] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:17:54] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:17:54] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (6개)
+[2025-04-13 15:17:55] [SUCCESS] [CommandManager] 6개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:17:55] [WEB] [Server] 웹 서버가 초기화되었습니다.
+[2025-04-13 15:17:55] [SUCCESS] [WebServer] 웹 서버가 http://localhost:3000/ 에서 실행 중입니다.
+[2025-04-13 15:18:19] [WARNING] [welcome] 설정된 환영 채널을 찾을 수 없습니다.
+[2025-04-13 15:18:58] [COMMAND] [Interaction] 'ad_origina1'님이 '가입신청서' 명령어를 사용했습니다.
+[2025-04-13 15:18:58] [INFO] [Config] 설정 'modules.registration'가 업데이트되었습니다.
+[2025-04-13 15:18:58] [INFO] [Config] 설정이 저장되었습니다.
+[2025-04-13 15:18:58] [INFO] [Config] 봇 설정이 로드되었습니다.
+[2025-04-13 15:18:58] [SYSTEM] [Bot] 봇을 시작합니다...
+[2025-04-13 15:18:58] [SYSTEM] [Loader] 모듈 로딩 중...
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '도움말' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '봇정보' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [MODULE] [CommandManager] help 모듈에서 2개 명령어를 등록했습니다.
+[2025-04-13 15:18:58] [MODULE] [help] 도움말 모듈이 초기화되었습니다.
+[2025-04-13 15:18:58] [MODULE] [Loader] 'help' 모듈이 로드되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [help] 도움말 모듈이 활성화되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '가입신청서' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [MODULE] [CommandManager] registration 모듈에서 1개 명령어를 등록했습니다.
+[2025-04-13 15:18:58] [MODULE] [registration] 가입 신청서 모듈이 초기화되었습니다.
+[2025-04-13 15:18:58] [MODULE] [Loader] 'registration' 모듈이 로드되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [registration] 가입 신청서 모듈이 활성화되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '환영채널설정' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '환영메시지설정' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [CommandManager] '환영메시지' 명령어가 등록되었습니다.
+[2025-04-13 15:18:58] [MODULE] [CommandManager] welcome 모듈에서 3개 명령어를 등록했습니다.
+[2025-04-13 15:18:58] [MODULE] [welcome] 웰컴 모듈이 초기화되었습니다.
+[2025-04-13 15:18:58] [MODULE] [Loader] 'welcome' 모듈이 로드되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [welcome] 이벤트 리스너가 등록되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [welcome] 웰컴 모듈이 활성화되었습니다.
+[2025-04-13 15:18:58] [SUCCESS] [Loader] 3개 모듈이 성공적으로 로드되었습니다. 
+[2025-04-13 15:18:59] [SUCCESS] [Bot] 봇이 준비되었습니다. 로그인: 🜙The Ruby Stronghold#2816
+[2025-04-13 15:18:59] [SUCCESS] [CommandManager] 모든 모듈의 슬래시 커맨드가 로드되었습니다.
+[2025-04-13 15:18:59] [SYSTEM] [CommandManager] 슬래시 커맨드를 Discord API에 배포 중... (6개)
+[2025-04-13 15:19:00] [SUCCESS] [CommandManager] 6개 슬래시 커맨드가 성공적으로 배포되었습니다.
+[2025-04-13 15:19:00] [WEB] [Server] 웹 서버가 초기화되었습니다.
+[2025-04-13 15:19:00] [SUCCESS] [WebServer] 웹 서버가 http://localhost:3000/ 에서 실행 중입니다.
+[2025-04-13 15:19:17] [COMMAND] [Interaction] 'ad_origina1'님이 '가입신청서' 명령어를 사용했습니다.
+[2025-04-13 15:19:18] [SUCCESS] [registration] ad_origina1님이 가입 신청서를 생성했습니다.
